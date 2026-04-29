@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meditec - Matériel médical à domicile</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    color: #1d1d1f;
+    background: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #2A6EF0;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #f5f5f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonials {
+    background: #fafafa;
+    padding: 40px;
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+@media(max-width: 768px) {
+    .features, .cards {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<section class="hero container">
+    <h1>Votre matériel médical installé en toute simplicité</h1>
+    <p>Livraison, installation et suivi rapide à domicile</p>
+    <a href="#form" class="btn">Demander un devis</a>
+</section>
+
+<section class="container features">
+    <div class="feature">
+        <h3>⚡ Rapide</h3>
+        <p>Installation sous 24 à 48h</p>
+    </div>
+    <div class="feature">
+        <h3>✔️ Simple</h3>
+        <p>On s’occupe de tout</p>
+    </div>
+    <div class="feature">
+        <h3>🛡️ Fiable</h3>
+        <p>Suivi professionnel</p>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Nos services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Location</h3>
+            <p>Solution flexible adaptée à vos besoins</p>
+        </div>
+        <div class="card">
+            <h3>Vente</h3>
+            <p>Matériel fiable et durable</p>
+        </div>
+        <div class="card">
+            <h3>Réparation</h3>
+            <p>Intervention rapide</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>Ils nous font confiance</h2>
+        <p>★★★★★ Service rapide et professionnel</p>
+        <p>★★★★★ Très humain et efficace</p>
+    </div>
+</section>
+
+<section id="form" class="container">
+    <h2>Faites votre demande</h2>
+    <div class="form">
+        <input type="text" placeholder="Nom">
+        <input type="tel" placeholder="Téléphone">
+        <input type="email" placeholder="Email">
+        <button class="btn" style="width:100%">Envoyer</button>
+    </div>
+</section>
+
+<footer>
+    Meditec – Matériel médical à domicile
+</footer>
+
+</body>
+</html>
