@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta name="description" content="Meditec à Sartrouville : spécialiste en maintenance, réparation et vente de matériel médical. Service rapide et professionnel dans les Yvelines (78).">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Meditec – Location, vente et réparation de matériel médical à domicile à Sartrouville (78). Livraison rapide, accompagnement personnalisé, prise en charge mutuelle.">
- <title>Meditec | Maintenance et Vente de Matériel Médical à Sartrouville (78)</title>
-
+  <title>Meditec – Matériel médical à domicile | Sartrouville (78)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -805,6 +802,7 @@
       font-size: 12px;
       color: var(--gray-400);
     }
+
     /* ──────────────── CONTACT ──────────────── */
     #contact { background: var(--gray-50); }
 
@@ -1043,7 +1041,8 @@
       transition: color 0.2s;
     }
     .footer-legal a:hover { color: rgba(255,255,255,0.7); }
-/* ──────────────── SCROLL TO TOP ──────────────── */
+
+    /* ──────────────── SCROLL TO TOP ──────────────── */
     .scroll-top {
       position: fixed;
       bottom: 28px;
@@ -1231,6 +1230,7 @@
     </div>
   </div>
 </section>
+
 <!-- ─── BAND ─── -->
 <div class="band">
   <div class="band-inner">
@@ -1390,6 +1390,7 @@
     </div>
   </div>
 </section>
+
 <!-- ─── EXEMPLES / PRODUITS ─── -->
 <section id="exemples">
   <div class="section-inner">
@@ -1851,7 +1852,8 @@
     showNotif('Merci ' + prenom + ' ! Votre demande a bien été envoyée. Nous vous répondons sous 2h.');
     document.querySelectorAll('.form-group input, .form-group select, .form-group textarea').forEach(el => el.value = '');
   });
-function showNotif(msg, error) {
+
+  function showNotif(msg, error) {
     const n = document.getElementById('notif');
     n.textContent = msg;
     n.style.background = error ? '#C0392B' : '#0D2B4E';
